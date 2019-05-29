@@ -6,8 +6,8 @@ function Todo({ todo, index, completeTodo, removeTodo}) {
   className="todo"> 
   {todo.text} 
   <div>
-    <button onClick={() => completeTodo(index)}>Complete</button>
-    <button onClick={() => removeTodo(index)}>x</button>
+    <button onClick={() => completeTodo(index)}>done</button>
+    <button onClick={() => removeTodo(index)}>remove</button>
   </div>
   </div>;
 }
@@ -27,7 +27,7 @@ function TodoForm({addTodo}) {
       type="text" 
       className="input" 
       value={value} 
-      placeholder="Add Todos"
+      placeholder="Add todo"
       onChange={e => setValue(e.target.value)} />
     </form>
   )
@@ -77,7 +77,7 @@ const removeTodo = index => {
 
   return(
     <div className='title'>
-      React Todo List
+      Todo List
     <div className='app'>
       <div className="todo-list">
         {todos.map((todo, index) => (
