@@ -6,7 +6,6 @@ body {
   padding: 0 10px;
   background: #202b38;
   text-rendering: optimizeLegibility;
-  
 }
 
 .app {
@@ -15,8 +14,9 @@ body {
   height: 50vh;
   text-align: center;
   border-radius: 7px;
-  
-}
+  background-image: url("https://media3.giphy.com/media/3o7qE6GmiEj9QsrAKA/giphy.gif");
+  background-repeat: no-repeat; /* no repeat of bg element*/
+  background-size: 100% 100%;} /* fills entire div with gif*/
 
 .title {
   font-size: 3.2em;
@@ -27,7 +27,6 @@ body {
   padding-top: 2vh;
   text-shadow: 2px 2px rgb(38, 36, 36);
   font-style: bold;
-  
 }
 
 .todo-list {
@@ -52,6 +51,4 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  
-
 }
