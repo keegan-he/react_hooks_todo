@@ -15,6 +15,7 @@ body {
   height: 50vh;
   text-align: center;
   border-radius: 7px;
+  
 }
 
 .title {
@@ -24,8 +25,9 @@ body {
   text-align: center;
   font-family: Helvetica, sans-serif;
   padding-top: 2vh;
-  text-shadow: 3px 2px rgb(38, 36, 36);
+  text-shadow: 2px 2px rgb(38, 36, 36);
   font-style: bold;
+  
 }
 
 .todo-list {
@@ -37,6 +39,7 @@ body {
   margin-right: auto; /* centers the element*/
   color: #253435;
   text-shadow: 0px 0px rgb(0, 0, 0);
+  box-shadow: 6px 6px 2px 1px rgba(221, 255, 0, 0.104);
 }
 
 .todo {
