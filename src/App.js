@@ -77,7 +77,7 @@ const removeTodo = index => {
 
   return(
     <div className='title'>
-      Todo List
+Todo List
     <div className='app'>
       <div className="todo-list">
         {todos.map((todo, index) => (
