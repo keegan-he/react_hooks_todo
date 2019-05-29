@@ -1,3 +1,3 @@
-# react_hooks_todo
+# React Hooks - Todo
 Taking the new hooks API for a spin...
 
